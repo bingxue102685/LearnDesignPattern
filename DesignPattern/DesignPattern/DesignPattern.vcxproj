@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\BuilderPattern.cpp" />
     <ClCompile Include="source\FactoryPattern.cpp" />
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\BuilderPattern.h" />
     <ClInclude Include="source\FactoryPattern.h" />
     <ClInclude Include="source\head.h" />
     <ClInclude Include="source\test.h" />

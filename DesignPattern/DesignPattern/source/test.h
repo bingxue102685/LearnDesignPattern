@@ -3,5 +3,5 @@
 class Test
 {
 public:
-	virtual void testfunc() = 0;
+	virtual void testfunc(bool isrun = true) = 0;
 };

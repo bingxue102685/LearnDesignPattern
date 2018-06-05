@@ -1,5 +1,7 @@
 #include "FactoryPattern.h"
 
+//工厂模式
+
 //Rectangle
 void Rectangle::draw()
 {

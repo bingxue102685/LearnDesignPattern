@@ -39,8 +39,11 @@ public:
 class FactoryTest :public Test
 {
 public:
-	void testfunc()
+	void testfunc(bool isrun)
 	{
+		if (!isrun)
+			return;
+
 		ShapeFactory* factory = new ShapeFactory();
 		Shape* shape1 = factory->getShape("rectangle");
 		shape1->draw();
