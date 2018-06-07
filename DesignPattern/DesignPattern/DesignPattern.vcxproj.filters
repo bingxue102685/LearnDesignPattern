@@ -24,6 +24,9 @@
     <ClCompile Include="source\BuilderPattern.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="source\ProxyPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\FactoryPattern.h">
@@ -36,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="source\BuilderPattern.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ProxyPattern.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>

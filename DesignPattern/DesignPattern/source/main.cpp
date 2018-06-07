@@ -10,6 +10,10 @@ int main(void)
 
 	//建造者模式
 	test = new BuilderTest();
+	test->testfunc(false);
+
+	//代理模式
+	test = new ProxyPatternTest();
 	test->testfunc();
 
 
