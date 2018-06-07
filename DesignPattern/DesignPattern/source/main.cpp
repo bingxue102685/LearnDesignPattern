@@ -14,8 +14,11 @@ int main(void)
 
 	//代理模式
 	test = new ProxyPatternTest();
-	test->testfunc();
+	test->testfunc(false);
 
+	//策略模式
+	test = new StartegyPatternTest();
+	test->testfunc();
 
 	system("pause");
 	return 0;
